@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6BEFE822383B8BE005D18E0 /* MSPrinter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BEFE782383B8BE005D18E0 /* MSPrinter.framework */; };
+		A6BEFE872383B8BE005D18E0 /* MSPrinterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFE862383B8BE005D18E0 /* MSPrinterTests.m */; };
+		A6BEFE892383B8BE005D18E0 /* MSPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFE7B2383B8BE005D18E0 /* MSPrinter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6BEFE962383B91F005D18E0 /* MSCImageConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFE942383B91F005D18E0 /* MSCImageConverter.h */; };
+		A6BEFE972383B91F005D18E0 /* MSCImageConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFE952383B91F005D18E0 /* MSCImageConverter.m */; };
+		A6BEFEEB2383D83B005D18E0 /* JQPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFEE42383D83A005D18E0 /* JQPrinter.h */; };
+		A6BEFEEC2383D83B005D18E0 /* PrinterType.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFEE52383D83A005D18E0 /* PrinterType.h */; };
+		A6BEFEED2383D83B005D18E0 /* JQPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFEE62383D83A005D18E0 /* JQPrinter.m */; };
+		A6BEFEEE2383D83B005D18E0 /* PrinterInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFEE72383D83A005D18E0 /* PrinterInfo.m */; };
+		A6BEFEEF2383D83B005D18E0 /* PrinterInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFEE82383D83A005D18E0 /* PrinterInfo.h */; };
+		A6BEFEF62383D8ED005D18E0 /* WrapDatas.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFEF42383D8EC005D18E0 /* WrapDatas.h */; };
+		A6BEFEF72383D8ED005D18E0 /* WrapDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFEF52383D8EC005D18E0 /* WrapDatas.m */; };
+		A6BEFF0B2383D9B8005D18E0 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFEFB2383D9B6005D18E0 /* Page.m */; };
+		A6BEFF0C2383D9B8005D18E0 /* JPL.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFEFC2383D9B6005D18E0 /* JPL.h */; };
+		A6BEFF0D2383D9B8005D18E0 /* JPLText.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFEFD2383D9B6005D18E0 /* JPLText.h */; };
+		A6BEFF0E2383D9B8005D18E0 /* JPLBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFEFE2383D9B6005D18E0 /* JPLBarcode.m */; };
+		A6BEFF0F2383D9B8005D18E0 /* JPLTextArea.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFEFF2383D9B6005D18E0 /* JPLTextArea.m */; };
+		A6BEFF102383D9B8005D18E0 /* JPLBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF002383D9B7005D18E0 /* JPLBase.m */; };
+		A6BEFF112383D9B8005D18E0 /* JPLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF012383D9B7005D18E0 /* JPLImage.m */; };
+		A6BEFF122383D9B8005D18E0 /* JPLGraphic.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF022383D9B7005D18E0 /* JPLGraphic.h */; };
+		A6BEFF132383D9B8005D18E0 /* JPLTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF032383D9B7005D18E0 /* JPLTextArea.h */; };
+		A6BEFF142383D9B8005D18E0 /* JPLText.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF042383D9B7005D18E0 /* JPLText.m */; };
+		A6BEFF152383D9B8005D18E0 /* JPLBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF052383D9B7005D18E0 /* JPLBase.h */; };
+		A6BEFF162383D9B8005D18E0 /* Page.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF062383D9B7005D18E0 /* Page.h */; };
+		A6BEFF172383D9B8005D18E0 /* JPLBarcode.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF072383D9B7005D18E0 /* JPLBarcode.h */; };
+		A6BEFF182383D9B8005D18E0 /* JPLGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF082383D9B7005D18E0 /* JPLGraphic.m */; };
+		A6BEFF192383D9B8005D18E0 /* JPLImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF092383D9B7005D18E0 /* JPLImage.h */; };
+		A6BEFF1A2383D9B8005D18E0 /* JPL.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF0A2383D9B8005D18E0 /* JPL.m */; };
+		A6BEFF2A2383D9E8005D18E0 /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF1C2383D9E6005D18E0 /* Text.m */; };
+		A6BEFF2B2383D9E8005D18E0 /* Code128.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF1D2383D9E6005D18E0 /* Code128.h */; };
+		A6BEFF2C2383D9E8005D18E0 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF1E2383D9E6005D18E0 /* Image.m */; };
+		A6BEFF2D2383D9E8005D18E0 /* Code128.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF1F2383D9E6005D18E0 /* Code128.m */; };
+		A6BEFF2E2383D9E8005D18E0 /* ESC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF202383D9E7005D18E0 /* ESC.m */; };
+		A6BEFF2F2383D9E8005D18E0 /* Graphic.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF212383D9E7005D18E0 /* Graphic.m */; };
+		A6BEFF302383D9E8005D18E0 /* Text.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF222383D9E7005D18E0 /* Text.h */; };
+		A6BEFF312383D9E8005D18E0 /* Barcode.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF232383D9E7005D18E0 /* Barcode.h */; };
+		A6BEFF322383D9E8005D18E0 /* ESCBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF242383D9E7005D18E0 /* ESCBase.m */; };
+		A6BEFF332383D9E8005D18E0 /* Graphic.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF252383D9E7005D18E0 /* Graphic.h */; };
+		A6BEFF342383D9E8005D18E0 /* Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BEFF262383D9E8005D18E0 /* Barcode.m */; };
+		A6BEFF352383D9E8005D18E0 /* ESCBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF272383D9E8005D18E0 /* ESCBase.h */; };
+		A6BEFF362383D9E8005D18E0 /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF282383D9E8005D18E0 /* Image.h */; };
+		A6BEFF372383D9E8005D18E0 /* ESC.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BEFF292383D9E8005D18E0 /* ESC.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6BEFE832383B8BE005D18E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6BEFE6F2383B8BE005D18E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6BEFE772383B8BE005D18E0;
+			remoteInfo = MSPrinter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6BEFE782383B8BE005D18E0 /* MSPrinter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSPrinter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BEFE7B2383B8BE005D18E0 /* MSPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPrinter.h; sourceTree = "<group>"; };
+		A6BEFE7C2383B8BE005D18E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6BEFE812383B8BE005D18E0 /* MSPrinterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSPrinterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BEFE862383B8BE005D18E0 /* MSPrinterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPrinterTests.m; sourceTree = "<group>"; };
+		A6BEFE882383B8BE005D18E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6BEFE942383B91F005D18E0 /* MSCImageConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCImageConverter.h; sourceTree = "<group>"; };
+		A6BEFE952383B91F005D18E0 /* MSCImageConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCImageConverter.m; sourceTree = "<group>"; };
+		A6BEFEE42383D83A005D18E0 /* JQPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPrinter.h; sourceTree = "<group>"; };
+		A6BEFEE52383D83A005D18E0 /* PrinterType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterType.h; sourceTree = "<group>"; };
+		A6BEFEE62383D83A005D18E0 /* JQPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPrinter.m; sourceTree = "<group>"; };
+		A6BEFEE72383D83A005D18E0 /* PrinterInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterInfo.m; sourceTree = "<group>"; };
+		A6BEFEE82383D83A005D18E0 /* PrinterInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterInfo.h; sourceTree = "<group>"; };
+		A6BEFEF42383D8EC005D18E0 /* WrapDatas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrapDatas.h; sourceTree = "<group>"; };
+		A6BEFEF52383D8EC005D18E0 /* WrapDatas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrapDatas.m; sourceTree = "<group>"; };
+		A6BEFEFB2383D9B6005D18E0 /* Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		A6BEFEFC2383D9B6005D18E0 /* JPL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPL.h; sourceTree = "<group>"; };
+		A6BEFEFD2383D9B6005D18E0 /* JPLText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLText.h; sourceTree = "<group>"; };
+		A6BEFEFE2383D9B6005D18E0 /* JPLBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLBarcode.m; sourceTree = "<group>"; };
+		A6BEFEFF2383D9B6005D18E0 /* JPLTextArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLTextArea.m; sourceTree = "<group>"; };
+		A6BEFF002383D9B7005D18E0 /* JPLBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLBase.m; sourceTree = "<group>"; };
+		A6BEFF012383D9B7005D18E0 /* JPLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLImage.m; sourceTree = "<group>"; };
+		A6BEFF022383D9B7005D18E0 /* JPLGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLGraphic.h; sourceTree = "<group>"; };
+		A6BEFF032383D9B7005D18E0 /* JPLTextArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLTextArea.h; sourceTree = "<group>"; };
+		A6BEFF042383D9B7005D18E0 /* JPLText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLText.m; sourceTree = "<group>"; };
+		A6BEFF052383D9B7005D18E0 /* JPLBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLBase.h; sourceTree = "<group>"; };
+		A6BEFF062383D9B7005D18E0 /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		A6BEFF072383D9B7005D18E0 /* JPLBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLBarcode.h; sourceTree = "<group>"; };
+		A6BEFF082383D9B7005D18E0 /* JPLGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLGraphic.m; sourceTree = "<group>"; };
+		A6BEFF092383D9B7005D18E0 /* JPLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLImage.h; sourceTree = "<group>"; };
+		A6BEFF0A2383D9B8005D18E0 /* JPL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPL.m; sourceTree = "<group>"; };
+		A6BEFF1C2383D9E6005D18E0 /* Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
+		A6BEFF1D2383D9E6005D18E0 /* Code128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Code128.h; sourceTree = "<group>"; };
+		A6BEFF1E2383D9E6005D18E0 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		A6BEFF1F2383D9E6005D18E0 /* Code128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Code128.m; sourceTree = "<group>"; };
+		A6BEFF202383D9E7005D18E0 /* ESC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESC.m; sourceTree = "<group>"; };
+		A6BEFF212383D9E7005D18E0 /* Graphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graphic.m; sourceTree = "<group>"; };
+		A6BEFF222383D9E7005D18E0 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		A6BEFF232383D9E7005D18E0 /* Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barcode.h; sourceTree = "<group>"; };
+		A6BEFF242383D9E7005D18E0 /* ESCBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCBase.m; sourceTree = "<group>"; };
+		A6BEFF252383D9E7005D18E0 /* Graphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphic.h; sourceTree = "<group>"; };
+		A6BEFF262383D9E8005D18E0 /* Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barcode.m; sourceTree = "<group>"; };
+		A6BEFF272383D9E8005D18E0 /* ESCBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCBase.h; sourceTree = "<group>"; };
+		A6BEFF282383D9E8005D18E0 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		A6BEFF292383D9E8005D18E0 /* ESC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESC.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6BEFE752383B8BE005D18E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BEFE7E2383B8BE005D18E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BEFE822383B8BE005D18E0 /* MSPrinter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6BEFE6E2383B8BE005D18E0 = {
+			isa = PBXGroup;
+			children = (
+				A6BEFE7A2383B8BE005D18E0 /* MSPrinter */,
+				A6BEFE852383B8BE005D18E0 /* MSPrinterTests */,
+				A6BEFE792383B8BE005D18E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6BEFE792383B8BE005D18E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6BEFE782383B8BE005D18E0 /* MSPrinter.framework */,
+				A6BEFE812383B8BE005D18E0 /* MSPrinterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6BEFE7A2383B8BE005D18E0 /* MSPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				A6BEFE7C2383B8BE005D18E0 /* Info.plist */,
+				A6BEFE922383B8C5005D18E0 /* Source */,
+			);
+			path = MSPrinter;
+			sourceTree = "<group>";
+		};
+		A6BEFE852383B8BE005D18E0 /* MSPrinterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6BEFE862383B8BE005D18E0 /* MSPrinterTests.m */,
+				A6BEFE882383B8BE005D18E0 /* Info.plist */,
+			);
+			path = MSPrinterTests;
+			sourceTree = "<group>";
+		};
+		A6BEFE922383B8C5005D18E0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A6BEFF1B2383D9CF005D18E0 /* ESC */,
+				A6BEFEFA2383D993005D18E0 /* JPL */,
+				A6BEFEE42383D83A005D18E0 /* JQPrinter.h */,
+				A6BEFEE62383D83A005D18E0 /* JQPrinter.m */,
+				A6BEFEE82383D83A005D18E0 /* PrinterInfo.h */,
+				A6BEFEE72383D83A005D18E0 /* PrinterInfo.m */,
+				A6BEFEF42383D8EC005D18E0 /* WrapDatas.h */,
+				A6BEFEF52383D8EC005D18E0 /* WrapDatas.m */,
+				A6BEFEE52383D83A005D18E0 /* PrinterType.h */,
+				A6BEFE932383B8D3005D18E0 /* Common */,
+				A6BEFE7B2383B8BE005D18E0 /* MSPrinter.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A6BEFE932383B8D3005D18E0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A6BEFE942383B91F005D18E0 /* MSCImageConverter.h */,
+				A6BEFE952383B91F005D18E0 /* MSCImageConverter.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A6BEFEFA2383D993005D18E0 /* JPL */ = {
+			isa = PBXGroup;
+			children = (
+				A6BEFEFC2383D9B6005D18E0 /* JPL.h */,
+				A6BEFF0A2383D9B8005D18E0 /* JPL.m */,
+				A6BEFF072383D9B7005D18E0 /* JPLBarcode.h */,
+				A6BEFEFE2383D9B6005D18E0 /* JPLBarcode.m */,
+				A6BEFF052383D9B7005D18E0 /* JPLBase.h */,
+				A6BEFF002383D9B7005D18E0 /* JPLBase.m */,
+				A6BEFF022383D9B7005D18E0 /* JPLGraphic.h */,
+				A6BEFF082383D9B7005D18E0 /* JPLGraphic.m */,
+				A6BEFF092383D9B7005D18E0 /* JPLImage.h */,
+				A6BEFF012383D9B7005D18E0 /* JPLImage.m */,
+				A6BEFEFD2383D9B6005D18E0 /* JPLText.h */,
+				A6BEFF042383D9B7005D18E0 /* JPLText.m */,
+				A6BEFF032383D9B7005D18E0 /* JPLTextArea.h */,
+				A6BEFEFF2383D9B6005D18E0 /* JPLTextArea.m */,
+				A6BEFF062383D9B7005D18E0 /* Page.h */,
+				A6BEFEFB2383D9B6005D18E0 /* Page.m */,
+			);
+			path = JPL;
+			sourceTree = "<group>";
+		};
+		A6BEFF1B2383D9CF005D18E0 /* ESC */ = {
+			isa = PBXGroup;
+			children = (
+				A6BEFF232383D9E7005D18E0 /* Barcode.h */,
+				A6BEFF262383D9E8005D18E0 /* Barcode.m */,
+				A6BEFF1D2383D9E6005D18E0 /* Code128.h */,
+				A6BEFF1F2383D9E6005D18E0 /* Code128.m */,
+				A6BEFF292383D9E8005D18E0 /* ESC.h */,
+				A6BEFF202383D9E7005D18E0 /* ESC.m */,
+				A6BEFF272383D9E8005D18E0 /* ESCBase.h */,
+				A6BEFF242383D9E7005D18E0 /* ESCBase.m */,
+				A6BEFF252383D9E7005D18E0 /* Graphic.h */,
+				A6BEFF212383D9E7005D18E0 /* Graphic.m */,
+				A6BEFF282383D9E8005D18E0 /* Image.h */,
+				A6BEFF1E2383D9E6005D18E0 /* Image.m */,
+				A6BEFF222383D9E7005D18E0 /* Text.h */,
+				A6BEFF1C2383D9E6005D18E0 /* Text.m */,
+			);
+			path = ESC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6BEFE732383B8BE005D18E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BEFF172383D9B8005D18E0 /* JPLBarcode.h in Headers */,
+				A6BEFF332383D9E8005D18E0 /* Graphic.h in Headers */,
+				A6BEFF302383D9E8005D18E0 /* Text.h in Headers */,
+				A6BEFEF62383D8ED005D18E0 /* WrapDatas.h in Headers */,
+				A6BEFF362383D9E8005D18E0 /* Image.h in Headers */,
+				A6BEFEEF2383D83B005D18E0 /* PrinterInfo.h in Headers */,
+				A6BEFF0D2383D9B8005D18E0 /* JPLText.h in Headers */,
+				A6BEFF132383D9B8005D18E0 /* JPLTextArea.h in Headers */,
+				A6BEFEEB2383D83B005D18E0 /* JQPrinter.h in Headers */,
+				A6BEFF162383D9B8005D18E0 /* Page.h in Headers */,
+				A6BEFF2B2383D9E8005D18E0 /* Code128.h in Headers */,
+				A6BEFF352383D9E8005D18E0 /* ESCBase.h in Headers */,
+				A6BEFEEC2383D83B005D18E0 /* PrinterType.h in Headers */,
+				A6BEFF312383D9E8005D18E0 /* Barcode.h in Headers */,
+				A6BEFF152383D9B8005D18E0 /* JPLBase.h in Headers */,
+				A6BEFF192383D9B8005D18E0 /* JPLImage.h in Headers */,
+				A6BEFF0C2383D9B8005D18E0 /* JPL.h in Headers */,
+				A6BEFF122383D9B8005D18E0 /* JPLGraphic.h in Headers */,
+				A6BEFF372383D9E8005D18E0 /* ESC.h in Headers */,
+				A6BEFE892383B8BE005D18E0 /* MSPrinter.h in Headers */,
+				A6BEFE962383B91F005D18E0 /* MSCImageConverter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6BEFE772383B8BE005D18E0 /* MSPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6BEFE8C2383B8BE005D18E0 /* Build configuration list for PBXNativeTarget "MSPrinter" */;
+			buildPhases = (
+				A6BEFE732383B8BE005D18E0 /* Headers */,
+				A6BEFE742383B8BE005D18E0 /* Sources */,
+				A6BEFE752383B8BE005D18E0 /* Frameworks */,
+				A6BEFE762383B8BE005D18E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSPrinter;
+			productName = MSPrinter;
+			productReference = A6BEFE782383B8BE005D18E0 /* MSPrinter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6BEFE802383B8BE005D18E0 /* MSPrinterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6BEFE8F2383B8BE005D18E0 /* Build configuration list for PBXNativeTarget "MSPrinterTests" */;
+			buildPhases = (
+				A6BEFE7D2383B8BE005D18E0 /* Sources */,
+				A6BEFE7E2383B8BE005D18E0 /* Frameworks */,
+				A6BEFE7F2383B8BE005D18E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6BEFE842383B8BE005D18E0 /* PBXTargetDependency */,
+			);
+			name = MSPrinterTests;
+			productName = MSPrinterTests;
+			productReference = A6BEFE812383B8BE005D18E0 /* MSPrinterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6BEFE6F2383B8BE005D18E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Marc Zhao";
+				TargetAttributes = {
+					A6BEFE772383B8BE005D18E0 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					A6BEFE802383B8BE005D18E0 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A6BEFE722383B8BE005D18E0 /* Build configuration list for PBXProject "MSPrinter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6BEFE6E2383B8BE005D18E0;
+			productRefGroup = A6BEFE792383B8BE005D18E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6BEFE772383B8BE005D18E0 /* MSPrinter */,
+				A6BEFE802383B8BE005D18E0 /* MSPrinterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6BEFE762383B8BE005D18E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BEFE7F2383B8BE005D18E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6BEFE742383B8BE005D18E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BEFF342383D9E8005D18E0 /* Barcode.m in Sources */,
+				A6BEFF2A2383D9E8005D18E0 /* Text.m in Sources */,
+				A6BEFF0B2383D9B8005D18E0 /* Page.m in Sources */,
+				A6BEFEEE2383D83B005D18E0 /* PrinterInfo.m in Sources */,
+				A6BEFEF72383D8ED005D18E0 /* WrapDatas.m in Sources */,
+				A6BEFF0E2383D9B8005D18E0 /* JPLBarcode.m in Sources */,
+				A6BEFE972383B91F005D18E0 /* MSCImageConverter.m in Sources */,
+				A6BEFF182383D9B8005D18E0 /* JPLGraphic.m in Sources */,
+				A6BEFF2D2383D9E8005D18E0 /* Code128.m in Sources */,
+				A6BEFF2F2383D9E8005D18E0 /* Graphic.m in Sources */,
+				A6BEFF1A2383D9B8005D18E0 /* JPL.m in Sources */,
+				A6BEFF322383D9E8005D18E0 /* ESCBase.m in Sources */,
+				A6BEFF102383D9B8005D18E0 /* JPLBase.m in Sources */,
+				A6BEFF112383D9B8005D18E0 /* JPLImage.m in Sources */,
+				A6BEFF2E2383D9E8005D18E0 /* ESC.m in Sources */,
+				A6BEFF142383D9B8005D18E0 /* JPLText.m in Sources */,
+				A6BEFF0F2383D9B8005D18E0 /* JPLTextArea.m in Sources */,
+				A6BEFEED2383D83B005D18E0 /* JQPrinter.m in Sources */,
+				A6BEFF2C2383D9E8005D18E0 /* Image.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BEFE7D2383B8BE005D18E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BEFE872383B8BE005D18E0 /* MSPrinterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6BEFE842383B8BE005D18E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6BEFE772383B8BE005D18E0 /* MSPrinter */;
+			targetProxy = A6BEFE832383B8BE005D18E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6BEFE8A2383B8BE005D18E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6BEFE8B2383B8BE005D18E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6BEFE8D2383B8BE005D18E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NGJVXQWTLX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MSPrinter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memoriesus.MSPrinter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6BEFE8E2383B8BE005D18E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NGJVXQWTLX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MSPrinter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memoriesus.MSPrinter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6BEFE902383B8BE005D18E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NGJVXQWTLX;
+				INFOPLIST_FILE = MSPrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memoriesus.MSPrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6BEFE912383B8BE005D18E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NGJVXQWTLX;
+				INFOPLIST_FILE = MSPrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memoriesus.MSPrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6BEFE722383B8BE005D18E0 /* Build configuration list for PBXProject "MSPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BEFE8A2383B8BE005D18E0 /* Debug */,
+				A6BEFE8B2383B8BE005D18E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6BEFE8C2383B8BE005D18E0 /* Build configuration list for PBXNativeTarget "MSPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BEFE8D2383B8BE005D18E0 /* Debug */,
+				A6BEFE8E2383B8BE005D18E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6BEFE8F2383B8BE005D18E0 /* Build configuration list for PBXNativeTarget "MSPrinterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BEFE902383B8BE005D18E0 /* Debug */,
+				A6BEFE912383B8BE005D18E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6BEFE6F2383B8BE005D18E0 /* Project object */;
+}
